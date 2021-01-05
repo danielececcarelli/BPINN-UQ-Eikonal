@@ -92,3 +92,6 @@ You will find all the result in the correct subfolder:
 - 2D-anisotropic-eikonal
 - 2D-isotropic-eikonal
 - 3D-isotropic-eikonal
+
+## DOCS
+All the docs (generated with DOxygen) can be found here [readme_docs](https://github.com/danielececcarelli/BPINN-UQ-Eikonal/blob/main/docs/html/md_README.html)
