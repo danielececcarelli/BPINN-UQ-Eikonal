@@ -1,0 +1,10 @@
+TODO:
+
+- Tensorflow profiler
+- GPU slower?
+- create directory for other example (OK manca 2D Anisotropic)
+- change args class OK
+- other trainable parameters OK
+- uq
+- same data sparse (set a random seed!) OK
+- collocation data are no more random with pykonal! change it (you can prepare a dataset of 1 milion of data and sample 10'000)

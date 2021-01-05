@@ -1,0 +1,43 @@
+{
+"architecture":{
+	"n_layers":5,
+	"n_neurons":100
+	},
+
+"experiment":{
+	"dataset":"exponential",
+	"prop_exact":0.02,
+	"prop_collocation":1.00,
+	"is_uniform_exact":"False",
+	"noise_lv":0.05,
+	"batch_size":100
+	},
+
+"param":{
+	"param_eikonal":1.0,
+	"param_log_joint":20.0,
+	"param_prior":1e-3,
+	"param2loss":1e-4,
+	"random_seed":41
+	},
+
+"sigmas":{
+	"data_prior_noise":1e-4,
+	"pde_prior_noise":1e-4,
+	"data_prior_noise_trainable":"False",
+	"pde_prior_noise_trainable":"False"
+	},
+
+"HMC":{
+	"N_HMC":3000,
+	"M_HMC":1500,
+	"L_HMC":1,
+	"dt_HMC":1e-3
+	},
+
+"utils":{
+	"verbose":"True",
+	"save_flag":"True",
+	"save_every_n_epochs":0
+	}
+}
